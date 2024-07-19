@@ -1,0 +1,21 @@
+start --begin the program
+finish --run till the function is finished
+info locals  --view the value of variables
+s --run without jumping out of function
+n --run and jump out of function
+p [name] --print the value of the variables
+bt --view the Function calls and parameters
+list --list the source code
+set var --set the value of the variable
+break number --set the breakpoint
+break ... if ... --set the breakpoint with condition
+c --run from current place continuously
+info breakpoints --view the breakpoints
+delete breakpoints --delete the breakpoints
+display [name] --trace the variable and print its value each time
+watch --set the wathchpoint
+info watchpoint  --view the watchpoint
+x --view the content of the memory init(byte)
+disassemble --view current function
+info register --view the value in register
+
